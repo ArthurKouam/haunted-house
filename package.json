@@ -1,0 +1,21 @@
+{
+  "name": "haunted-house",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/three": "^0.179.0",
+    "three": "^0.179.1",
+    "vite": "^7.1.1"
+  }
+}
